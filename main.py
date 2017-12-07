@@ -30,4 +30,4 @@ client.add_cog(GeneralCommands(bot))
 client.add_cog(PickupCommands(bot, api, db, channel))
 client.add_cog(UserCommands(bot, api, db))
 
-client.run(Mzg4NDM1MTE2ODQzNzI4OTA4.DQtDxw.L7r-HWHMzca_ZHpWwWyQus_K4Qg)
+client.run('Mzg4NDM1MTE2ODQzNzI4OTA4.DQtDxw.L7r-HWHMzca_ZHpWwWyQus_K4Qg')
