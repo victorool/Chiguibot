@@ -10,7 +10,7 @@ class GeneralCommands(object):
 
     @command()
     async def info(self):
-        msg = "I am ChiguiBot! I help I help showing your stats, and do other bot-y things."
+        msg = "I am ChiguiBot! I help I help showing your stats, and do other bot-y things.\nFor more information, please see https://github.com/mattgreen/fogeybot"
         await self.bot.reply(msg)
 
     @command()
