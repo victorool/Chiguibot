@@ -1,0 +1,7 @@
+applications:
+- buildpack: https://github.com/cloudfoundry/python-buildpack.git
+  command: python -m chiguibot
+  path: .
+  instances: 1
+  memory: 128M
+  no-route: true
