@@ -14,7 +14,13 @@ client = discord.Client()
 async def on_ready():
     print("ChiguiBot: logged in as %s" % (client.user.name))
 
-
+@client.event
+def on_ready():
+    print('Logged in as')
+    print(client.user.name)
+    print(client.user.id)
+    print('------')
+    
 db = Database(uri)
 asyncio.get_event_loop().run_until_complete(db.test_connection())
 
